@@ -1,37 +1,3 @@
-# VUE Blog DEMO
-
->这是用VUE.CLI3.0搭建的初次使用
-
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
->vue.cli3.0跨域
-
-vue.config.js
-```
 module.exports = {
     baseURI:'/',//根路径
     outputDir:'dist',//构建输出目录
@@ -53,9 +19,11 @@ module.exports = {
                     "^/api":''
                 }
             }
-        }
+        },
+        // before(app){
+        //     app.get('/api.goods',(req,res)=>{
+        //         res.json()
+        //     })
+        // }
     }
 }
-```
-
-
