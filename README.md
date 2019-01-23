@@ -1,7 +1,4 @@
-# VUE Blog DEMO
-
->这是用VUE.CLI3.0搭建的初次使用
-
+# vueblog
 
 ## Project setup
 ```
@@ -28,9 +25,7 @@ npm run test
 npm run lint
 ```
 
->vue.cli3.0跨域
-
-vue.config.js
+### vue.config.js
 ```
 module.exports = {
     baseURI:'/',//根路径
@@ -57,5 +52,4 @@ module.exports = {
     }
 }
 ```
-
 
