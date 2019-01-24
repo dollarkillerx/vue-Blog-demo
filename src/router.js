@@ -28,6 +28,5 @@ export default new Router({
 			path: '/blog/:id',
 			component: () => import('./views/SingleBlog.vue')
 		}
-  ]
-	// ,mode:'history'
+  ],mode:'history'
 })

@@ -169,3 +169,5 @@ import $ from 'jquery';
 ``` 
 id:this.$route.params.id, 
 ```
+
+demo地址:https://dollarkillerx.github.io/vueblogdemo/
