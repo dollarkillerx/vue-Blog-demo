@@ -5,6 +5,7 @@
 </template>
 
 <script>
+// import
 export default {
   name: 'home',
   components: {
